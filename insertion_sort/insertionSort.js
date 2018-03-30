@@ -3,7 +3,7 @@
  */
 
 /**
- * 插入排序算法(降序)
+ * 插入排序算法
  *
  * @param arr 输入数组
  * @param sort 升序降序，true:升序  false:降序
@@ -26,7 +26,7 @@ function insertionSort(arr,sort=true){
 
 }
 
-// 测试1
-let arr1 = [3,5,2,1,1,7,7,8,-1];
-insertionSort(arr1,false);
-console.log(arr1.join(","));
+// 测试
+let arr = [3,5,2,1,1,7,7,8,-1];
+insertionSort(arr,false);
+console.log(arr.join(","));

@@ -43,8 +43,8 @@ function mergeSort(arr, r=arr.length){
     }
 }
 
-
-let arr = [1,5,2,6,3,4];
+// 测试
+let arr = [3,5,2,1,1,7,7,8,-1];
 mergeSort(arr);
 console.log(arr.join(","));
 
